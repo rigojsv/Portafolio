@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    background-color: @color-surface-400;
+    color: @color-primary-text;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    h1 {
+        margin: 0px;
+        padding: 0px 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    nav {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li a {
+                display: flex;
+                color: @color-primary-text;
+                text-decoration: none;
+                padding: 5px 10px;
+                font-size: 1.25rem;
+                font-weight: 700;
+                text-align: center;
+
+                &:hover{
+                    color: @color-primary-400;
+                }
+            }
+        }
+    }
+}

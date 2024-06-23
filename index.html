@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea#1</title>
+    <link href='less/style.less' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="main.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150">
+        <h1>Portafolio Rigoberto Sanchez</h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">Sobre mi</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contactme">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="aboutme">
+            <h2>Sobre mi</h2>
+            <p>¡Hola! Soy Rigoberto Sánchez. Soy un
+                apasionado del desarrollo web con un año de experiencia en el aprendizaje de esta fascinante disciplina.
+                Aunque estoy en las primeras etapas de mi carrera, he adquirido una sólida base en varias tecnologías
+                esenciales.<br /><br />
+                Mis habilidades principales incluyen HTML, CSS y JavaScript, además de tener conocimientos en lenguajes
+                como C, C++, C#, Python y Java. Actualmente, estoy cursando la carrera de Informática, donde he tenido
+                la oportunidad de trabajar en diversos proyectos académicos que me han permitido poner en práctica lo
+                aprendido y desarrollar mis capacidades.<br /><br />
+                Si buscas a alguien comprometido, con ganas de aprender y con una base sólida en desarrollo web, estaré
+                encantado de colaborar en tus proyectos. ¡Hablemos y veamos cómo puedo ayudarte a llevar tus ideas al
+                siguiente nivel!
+            </p>
+            <hr class="rainbow">
+            <h3>Estudios</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grado</th>
+                        <th>Institucion</th>
+                        <th>Titulo</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Primaria</td>
+                        <td>CECOM</td>
+                        <td>Primaria</td>
+                        <td>2008-2014</td>
+                    </tr>
+                    <tr>
+                        <td>Secundaria</td>
+                        <td>CECOM</td>
+                        <td>Secundaria</td>
+                        <td>2015-2017</td>
+                    </tr>
+                    <tr>
+                        <td>Bachillerato</td>
+                        <td>IOCR</td>
+                        <td>Ciencias y Humanidades</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>Universidad</td>
+                        <td>UNICAH</td>
+                        <td>Ing. ciencias de la computacion</td>
+                        <td>2021-Act.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr class="rainbow">
+        </section>
+        <section id="projects">
+            <h2>Mis proyectos</h2>
+            <div>
+                <div class="card">
+                    <img src="https://placehold.co/200" alt="Imagen del Proyecto" />
+                    <h4>Safe HN</h4>
+                    <p>
+                        SAFEHN es un proyecto web desarrollado en clase, para ayudar a la empresa a tener un sitio web
+                        donde sus clientes puedan visitar su catalogo de una manera organizada y bien vista.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/200" alt="Imagen del Proyecto" />
+                    <h4>Ibagari Grill</h4>
+                    <p>
+                        Es un proyecto desarrollado con el fin de llevar un manejo de los empleados de el restaurante
+                        ibagari grill, emn donde se utilizo un poco de Microsoft SQL y VS.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/200" alt="Imagen del Proyecto" />
+                    <h4>Anta Creativos</h4>
+                    <p>
+                        Un programa creado con la finalidad de llevar un mayor control y orden de las ordenes de la
+                        empresa Anta Creativos, en esta se lleva el control de pedidos, empleados, inventario etc.
+                    </p>
+                </div>
+            </div>
+            <hr class="rainbow">
+        </section>
+        <section id="contactme">
+            <h2>Contactame</h2>
+            <section>
+                <form action="index.html" method="post">
+                    <label for="nombre">Nombre:
+                        <input type="text" name="nombre" id="nombre" required autocapitalize="on"
+                             />
+                    </label>
+                    <label for="correo">Correo:
+                        <input type="email" name="correo" id="correo" required autocapitalize="off" />
+                    </label>
+                    <label for="birthdate">
+                        Fecha de Nacimiento:
+                        <input type="date" name="birthdate" id="birthdate" required autocomplete="on" />
+                    </label>
+                    <label for="mensaje">Mensaje:
+                        <textarea name="mensaje" id="mensaje" required></textarea>
+                    </label>
+                    <label for="color">
+                        Color Favorito:
+                        <input type="color" name="color" id="color" required />
+                    </label>
+                    <br />
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <p>Rigoberto Sanchez &copy; 2024</p>
+        </section>
+        <section>
+            <ol>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Github</a></li>
+            </ol>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">Sobre Mí</a></li>
+                    <li><a href="#projects">Mis Proyectos</a></li>
+                    <li><a href="#contactme">Contactame</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+
+</html>
